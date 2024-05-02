@@ -1,0 +1,195 @@
+*{
+    margin: 1px;
+}
+
+body{
+    background-color: rgb(193, 241, 97,0.3);
+    margin-left: 15px;
+}
+
+ 
+nav{
+    position: fixed;
+    background-color: rgba(239, 119, 223, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+nav > a{
+    text-decoration: none;
+    float:right;
+    padding: 20px;
+    color: black;
+    font-size: x-large;
+} 
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+
+.first{
+    border: none;
+    border-collapse:unset;
+}
+
+.first > td{
+    border: none;
+    border-collapse:unset;
+}
+
+.td1{
+    font-style: italic ; 
+    line-height: 2.5;
+    color: blueviolet;
+    font-size: large;
+    text-align: center;
+}
+
+td> img{
+    width: 360px;
+    box-shadow:  5px 5px 10px #e345e6, -5px -5px 10px #34d2dd;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    margin-right: 60px;
+} 
+
+.index-button{
+    box-shadow:  1px 1px 3px #e345e6, -1px -1px 3px #34d2dd;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.td2{
+    font-style: italic ; 
+    line-height: 1.5;
+    color: blueviolet;
+    font-size: large;
+    margin-top: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #39ff14;
+}
+
+.site-footer {
+    background-color: rgb(193, 241, 97,0.3);
+    padding: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-table {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-column {
+    padding: 10px 20px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    margin: 5px 0;
+}
+
+.ckimg{
+    margin: 40px;
+}
+
+fieldset{
+    background-image: linear-gradient(to right bottom, #1f2544, #4c4068, #7f5c89, #b57aa8, #ee99c2);
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-family: 'Lucida Sans';
+}
+input{
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+a{
+    color: white;
+}
+#login{
+    padding: 30px;
+}
+
+div > a{
+    padding: 10px;
+    border: 2px outset black;
+    margin: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"]  {
+    width: 90%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-left: 4%;
+}
+
+.js-button {
+    padding: 10px 20px;
+    background-color: rgb(76, 76, 230);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin-left: 40%;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+.forms{
+    background-color: rgb(234, 237, 188);
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.signup{
+    padding: 10px 20px;
+    background-color: rgb(88, 216, 116);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 200px;
+}
+.payment{
+    padding: 10px 20px;
+    background-color: rgb(88, 216, 116);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 200px;
+}
+
+video{
+    margin: 20px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Logo.png" type="image/x-icon">
+    <nav class="header">
+        <img width="50px" height="50px" src="education.png" alt="Education Logo"> 
+        <a href="aboutus.html">About Us</a> 
+        <a href="events.html">Events</a> 
+        <a href="vlogs.html">Vlogs</a>
+        <a href="programs.html">Programs</a> 
+        <a href="index.html">Home</a> 
+    </nav><br><br><br><br><br>
+</head>
+<body>
+    <h1>Welcome to the Payment Section</h1><br><br>
+    <form method="post" class="forms" id="paymentForm">
+        <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        
+        <div class="form-group">
+            <label for="cardNumber">Card Number:</label>
+            <input type="text" id="cardNumber" name="cardNumber" minlength="9" maxlength="16" required>
+        </div>
+
+        <div class="form-group">
+            <label for="cardNumber">Date:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+
+        <div class="form-group">
+            <label for="courseSelection">Select a Course:</label>
+            <select id="courseSelection" name="courseSelection" required>
+                <option value="">--Please select a course--</option>
+                <option value="Coding for Kids">Coding for Kids</option>
+                <option value="Creative Writing">Creative Writing</option>
+                <option value="Robotics">Robotics</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="cardType">Card Type:</label>
+            <select id="cardType" name="cardType" required>
+                <option value="">Select a card type</option>
+                <option value="Visa">Visa</option>
+                <option value="MasterCard">MasterCard</option>
+                <option value="Amex">American Express</option>
+            </select>
+        </div>
+        
+        <button class="js-button" type="submit">Submit Payment</button>
+    </form>
+
+    <h1>If cash then, please just drop by at the following address.⬇️</h1>
+
+    <script src="payment.js" defer></script><br><br><br>
+
+    <footer class="site-footer">
+        <table class="footer-table">
+            <tr>
+                <td class="footer-column1">
+                    <h3>Contact Us</h3>
+                    <p>Happy Learning Educational Services</p>
+                    <p>123 Learning St., Education City, 10101</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Email: contact@happylearning.com</p>
+                </td>
+                <td class="footer-column2">
+                    <h3>Follow Us</h3>
+                    <p>
+                        <a href="https://twitter.com/happylearning" target="_blank">
+                            <img src="ttlogo.avif" alt="Twitter" style="width: 24px; height: 24px;">
+                        </a>
+                        <a href="https://facebook.com/happylearning" target="_blank">
+                            <img src="fblogo.jpg" alt="Facebook" style="width: 24px; height: 24px;">
+                        </a>
+                        <a href="https://instagram.com/happylearning" target="_blank">
+                            <img src="iglogo.jpg" alt="Instagram" style="width: 24px; height: 24px;">
+                        </a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
